@@ -1,0 +1,5 @@
+sylfrid_cookbook_show:
+    path:     /cookbook/{id}
+    defaults: { _controller: SylfridCookBookBundle:CookBook:show }
+    requirements:
+        id:  \d+

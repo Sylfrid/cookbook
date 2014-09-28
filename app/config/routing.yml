@@ -1,0 +1,3 @@
+sylfrid_cookbook:
+    resource: "@SylfridCookBookBundle/Resources/config/routing.yml"
+    prefix:   /
